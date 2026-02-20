@@ -1,0 +1,3 @@
+Bài 2: về xử lý ngoại lệ FileNotFoundError 
+khi thực hiện chương trình 
+đếm số từ trong file text
