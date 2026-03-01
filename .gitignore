@@ -1,10 +1,18 @@
 # Limit Chapter
 2.Solve/source/chap_3
 2.Solve/source/chap_4
+2.Solve/source/chap_5
+2.Solve/source/chap_6
+2.Solve/source/chap_7
 2.Solve/Chap3*
 2.Solve/Chap4*
 2.Solve/Chap5*
+2.Solve/Chap6*
+2.Solve/Chap7*
 
+# VSCode
+.vscode
+.history
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
