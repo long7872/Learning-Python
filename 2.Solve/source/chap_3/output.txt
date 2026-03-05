@@ -1,0 +1,103 @@
+Bài tập 1: HỆ THỐNG QUẢN LÝ NHÂN SỰ:
+Tạo lớpPersonchứa thông tin:
+- Tên
+- Giới tính
+- Ngày sinh
+- Địa chỉ
+1. Viết phương thức inputInfo(), nhập thông tin Person từ bàn phím
+2. Viết phương thức showInfo(), hiển thị tất cả thông tin Person
+Tạo lớpStudentthừa kế lớpPerson, lưu trữ các thông tin một sinh viên:
+- Mã sinh viên: chứa 8 kí tự
+- Điểm trung bình: từ 0.0 – 10.0
+- Email: phải chứa kí tự @ và không tồn tại khoảng trắng
+1. Override phương thức inputInfo(), nhập thông tin Student từ bàn phím
+2. Override phương thức showInfo(), hiển thị tất cả thông tin Student
+3. Viết phương thức xét xem Student có được học bổng không? Điểm trung bình trên 8.0 là được học bổng
+Tạo lớpStudentTestđể kiểm tra chức năng của lớpStudent.
+Tạo Menu chọn như sau:
+a. Chọn 1: Nhập vào n sinh viên (n là số lượng sinh viên, được nhập từ bàn phím)
+b. Chọn 2: Hiển thị thông tin tất cả các sinh viên ra màn hình
+c. Chọn 3: Hiển thị sinh viên có điểm trung bình cao nhất và sinh viên có điểm trung bình thấp nhất
+d. Chọn 4: Tìm kiếm sinh viên theo mã sinh viên. Nhập vào mã sinh viên. Nếu tồn tại sinh viên có mã đó thì in ra màn hình thông tin sinh viên. Nếu không tồn tại thì in ra: Không có sinhviên nào có mã là <giá trị của mã sinh viên>
+e. Chọn 5: Hiển thị tất cả các sinh viên theo thứ tự tên trong bảng chữ cái (A->Z)
+f. Chọn 6: Hiển thị tất cả các sinh viên được học bổng, và sắp xếp theo thứ tự điểm cao xuống thấp
+g. Chọn 7: Thoát
+Tạo lớpTeacher, kế thừa từPerson, lưu trữ thông tin một giảng viên.
+- Lớp dạy (phải bắt đầu bằng 1 trong các chữ: G, H, I, K, L, M)
+- Lương một giờ dạy
+- Số giờ dạy trong tháng
+1. Override phương thức inputInfo(), nhập thông tin Teacher từ bàn phím
+2. Override phương thức showInfo(), hiển thị tất cả thông tin Teacher
+3. Viết phương thức tính lương thực nhận, trả về lương thực nhận theo công thức:
+Nếu lớp dạy là lớp buổi sáng và chiều (Giờ G, H, I, K) thì
+Lương thực nhận = lương một giờ dạy * số giờ dạy trong tháng;
+Nếu lớp dạy là lớp buổi tối (Giờ L, giờ M) thì
+Lương thực nhân = lương một giờ dạy * số giờ dạy trong tháng + 200000đ;
+Tạo lớpTeacherTest, chứa hàm Main kiểm tra các chức năng của Teacher.
+Tạo menu lựa chọn như sau:
+a. Chọn 1: Nhập vào n giảng viên (n là số lượng sinh viên, được nhập từ bàn phím)
+b. Chọn 2: Hiển thị thông tin tất cả các giảng viên ra màn hình
+c. Chọn 3: Hiển thị giảng viên có lương cao nhất
+d. Chọn 4: Thoát
+
+
+Bài tập 2: HỆ THỐNG QUẢN LÝ SỞ THÚ:
+1.Tạo lớp có tênAnimalgồm các thuộc tính và phương thức:
+·Ten
+·Tuoi
+·MoTa
+·xemThongTin()//hiển thị loại, tên, tuổi và mô tả của động vật
+·tiengKeu()
+2.Tạo các lớpTiger,Dog,Cattheo các yêu cầu sau:
+Thừa kế từ lớp AnimalGhi đè phương thức tiengKeu() để thể hiện những tiếng kêu đặc trưng của từng loài vật
+3.Tạo lớp có tênChuonggồm:
+·maChuong
+·Một list có tên AnimalList
+·themConVat(animal)//thêm một con vật vào AnimalList
+·xoaConVat(ten)//xóa con vật có tên tương ứng khỏi AnimalList
+4.Tạo lớp có tênZoogồm:
+·Một list có tên DanhSachChuong
+·themChuong(chuong)//thêm chuồng vào DanhSachChuong
+·xoaChuong(machuong)//xóa chuồng có mã tương ứng khỏi DanhSachChuong
+5.Tạo lớp có tên TestZoo chứa phương thức main() để quản lý sở thú theo dạng Menu như sau:
+Thêm chuồngXóa chuồngThêm con vậtXóa con vậtXem tất cả các con vậtThoát
+6.Khi người dùng chọn 3 thì yêu cầu người dùng nhập vào loại con vật muốn thêm (Tiger, Dog, Cat) rồi nhập các thông tin của con vật và thêm vào AnimaList.
+7.Khi người dùng chọn 5 thì hiển thị thông tin cùng tiếng kêu của từng con vật trong sở thú.
+
+
+Bài tập 3: HỆ THỐNG QUẢN LÝ THƯ VIỆN:
+Ở một thư viện, người ta quản lý sách thông qua phần mềm.
+Sách được đặt trên từng kệ sách (mỗi kệ sách bao gồm nhiều cuốn sách). Mỗi kệ sách có 1 số thứ tự riêng.
+Các kệ sách được phân ra theo đầu mục sách như: Công nghệ thông tin, truyện ngắn, sách giáo khoa, tiểu thuyết...
+Mỗi quyển sách lại được đánh một mã khác nhau.
+Trên phần mềm có lưu trữ thêm thông tin về tác giả, năm xuất bản, giá tiền của sách
+Để tiện cho việc quản lý. Mỗi khi có một cuốn sách mới, người thủ thư sẽ đưa cuốn sách lên kệ theo đúng đầu mục, ngoài ra, thủ thư sẽ đặt cuốn sách sao cho trong 1 kệ, các cuốn sách xếp theo vần alphabet (sắp xếp từ A-->Z)
+Một đặc trưng nữa của phần mềm, đấy là có thể lấy ra cuốn sách có giá cao nhất và cuốn sách có giá thấp nhất theo từng kệ sách, chỉ cần nhập vào số thứ tự kệ sách.
+Để tìm kiếm đúng cuốn sách cần thiết, người dùng chỉ cần nhập vào mã sách là phần mềm sẽ trả về thông tin cuốn sách tương ứng.
+Hãy viết phần mềm quản lý thư viện theo mô tả như trên.
+
+
+Bài tập 4:Xây dựng lớp đa giác, hình bình hành thừa kế từ đa giác, hình chữ nhật thừa kế từ hình bình hành và hình vuông thừa kế từ hình chữ nhật. Nhập vào các thuộc tính cần thiết của mỗi hình và tính chu vi, diện tích của hình đó.:
+
+
+
+Bài tập 4::
+Xây dựng lớp đa giác, hình bình hành thừa kế từ đa giác, hình chữ nhật thừa kế từ hình bình hành và hình vuông thừa kế từ hình chữ nhật. Nhập vào các thuộc tính cần thiết của mỗi hình và tính chu vi, diện tích của hình đó.
+
+
+Bài tập 5:Xây dựng lớp điểm, lớp elip thừa kế từ lớp điểm, lớp đường tròn thừa kế từ lớp elip. Nhập vào các thuộc tính cần thiết của elip và tính diện tích.:
+
+
+
+Bài tập 5::
+Xây dựng lớp điểm, lớp elip thừa kế từ lớp điểm, lớp đường tròn thừa kế từ lớp elip. Nhập vào các thuộc tính cần thiết của elip và tính diện tích.
+
+
+Bài tập 6:Xây dựng lớp tam giác, lớp tam giác vuông, tam giác cân thừa kế từ lớp tam giác. Lớp tam giác đều thừa kế từ lớp tam giác cân.:
+
+
+
+Bài tập 6::
+Xây dựng lớp tam giác, lớp tam giác vuông, tam giác cân thừa kế từ lớp tam giác. Lớp tam giác đều thừa kế từ lớp tam giác cân.
+
+

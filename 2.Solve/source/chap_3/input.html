@@ -1,0 +1,184 @@
+<section class="content">
+                          <h2><a id="bai-tap-1" name="bai-tap-1"></a>Bài tập 1: HỆ THỐNG QUẢN LÝ NHÂN SỰ</h2>
+
+<h3>Câu 1:</h3>
+
+<p>Tạo lớp <strong>Person</strong> chứa thông tin:</p>
+
+<p>- Tên</p>
+
+<p>- Giới tính</p>
+
+<p>- Ngày sinh</p>
+
+<p>- Địa chỉ</p>
+
+<p>1. Viết phương thức inputInfo(), nhập thông tin Person từ bàn phím</p>
+
+<p>2. Viết phương thức showInfo(), hiển thị tất cả thông tin Person</p>
+
+<h3>Câu 2:</h3>
+
+<p>Tạo lớp <strong>Student</strong> thừa kế lớp <strong>Person</strong>, lưu trữ các thông tin một sinh viên:</p>
+
+<p>- Mã sinh viên: chứa 8 kí tự</p>
+
+<p>- Điểm trung bình: từ 0.0 – 10.0</p>
+
+<p>- Email: phải chứa kí tự @ và không tồn tại khoảng trắng</p>
+
+<p>1. Override phương thức inputInfo(), nhập thông tin Student từ bàn phím</p>
+
+<p>2. Override phương thức showInfo(), hiển thị tất cả thông tin Student</p>
+
+<p>3. Viết phương thức xét xem Student có được học bổng không? Điểm trung bình trên 8.0 là được học bổng</p>
+
+<h3>Câu 3:</h3>
+
+<p>Tạo lớp <strong>StudentTest</strong> để&nbsp;kiểm tra chức năng của&nbsp;lớp <strong>Student</strong>.</p>
+
+<p>Tạo Menu chọn như sau:</p>
+
+<p>a. Chọn 1: Nhập vào n sinh viên (n là số lượng sinh viên, được nhập từ bàn phím)</p>
+
+<p>b. Chọn 2: Hiển thị thông tin tất cả các sinh viên ra màn hình</p>
+
+<p>c. Chọn 3: Hiển thị sinh viên có điểm trung bình cao nhất và sinh viên có điểm trung bình thấp&nbsp;nhất</p>
+
+<p>d. Chọn 4: Tìm kiếm sinh viên theo mã sinh viên. Nhập vào mã sinh viên. Nếu tồn tại sinh viên có mã đó thì in ra màn hình thông tin sinh viên. Nếu không tồn tại thì in ra: Không có sinhviên nào có mã là &lt;giá trị của mã sinh viên&gt;</p>
+
+<p>e. Chọn 5: Hiển thị tất cả các sinh viên theo thứ tự tên trong bảng chữ cái (A-&gt;Z)</p>
+
+<p>f. Chọn 6: Hiển thị tất cả các sinh viên được học bổng, và sắp xếp theo thứ tự điểm cao xuống&nbsp;thấp</p>
+
+<p>g. Chọn 7: Thoát</p>
+
+<h3>Câu 4:</h3>
+
+<p>Tạo lớp <strong>Teacher</strong>, kế thừa từ <strong>Person</strong>, lưu trữ thông tin một giảng viên.</p>
+
+<p>- Lớp dạy (phải bắt đầu bằng 1 trong các chữ: G, H, I, K, L, M)</p>
+
+<p>- Lương một giờ dạy</p>
+
+<p>- Số giờ dạy trong tháng</p>
+
+<p>1. Override phương thức inputInfo(), nhập thông tin Teacher từ bàn phím</p>
+
+<p>2. Override phương thức showInfo(), hiển thị tất cả thông tin Teacher</p>
+
+<p>3. Viết phương thức tính lương thực nhận, trả về lương thực nhận theo công thức:</p>
+
+<p>Nếu lớp dạy là lớp buổi sáng và chiều (Giờ G, H, I, K) thì</p>
+
+<p>Lương thực nhận = lương một giờ dạy * số giờ dạy trong tháng;</p>
+
+<p>Nếu lớp dạy là lớp buổi tối (Giờ L, giờ M) thì</p>
+
+<p>Lương thực nhân = lương một giờ dạy * số giờ dạy trong tháng + 200000đ;</p>
+
+<h3>Câu 5:</h3>
+
+<p>Tạo lớp <strong>TeacherTest</strong>, chứa hàm Main kiểm tra các chức năng của Teacher.</p>
+
+<p>Tạo menu lựa chọn như sau:</p>
+
+<p>a. Chọn 1: Nhập vào n giảng viên (n là số lượng sinh viên, được nhập từ bàn phím)</p>
+
+<p>b. Chọn 2: Hiển thị thông tin tất cả các giảng viên ra màn hình</p>
+
+<p>c. Chọn 3: Hiển thị giảng viên có lương cao nhất</p>
+
+<p>d. Chọn 4: Thoát</p>
+
+<h2><a id="bai-tap-2" name="bai-tap-2"></a>Bài tập 2:&nbsp;HỆ THỐNG QUẢN LÝ SỞ&nbsp;THÚ</h2>
+
+<p><strong>1.</strong>&nbsp;Tạo lớp có tên <strong>Animal</strong> gồm các thuộc tính và phương thức:</p>
+
+<p><strong>·&nbsp;</strong>Ten</p>
+
+<p><strong>·&nbsp;</strong>Tuoi</p>
+
+<p><strong>·&nbsp;</strong>MoTa</p>
+
+<p><strong>·&nbsp;</strong>xemThongTin()&nbsp;<em>//hiển thị loại,&nbsp;tên, tuổi và mô tả của động vật</em></p>
+
+<p><strong>·</strong>&nbsp;tiengKeu()</p>
+
+<p><strong>2.</strong>&nbsp;Tạo các lớp&nbsp;<strong>Tiger</strong>, <strong>Dog</strong>, <strong>Cat</strong> theo các yêu cầu sau:</p>
+
+<ul>
+	<li>Thừa kế từ&nbsp;lớp&nbsp;Animal</li>
+	<li>Ghi đè phương thức tiengKeu() để thể hiện những tiếng kêu đặc trưng của từng loài vật</li>
+</ul>
+
+<p><strong>3.</strong>&nbsp;Tạo lớp có tên <strong>Chuong</strong> gồm:</p>
+
+<p><strong>·&nbsp;</strong>maChuong</p>
+
+<p><strong>· </strong>Một&nbsp;list có tên&nbsp;AnimalList</p>
+
+<p><strong>·&nbsp;</strong>themConVat(animal)&nbsp;<em>//thêm một con vật vào&nbsp;AnimalList</em></p>
+
+<p><strong>·&nbsp;</strong>xoaConVat(ten)&nbsp;<em>//xóa con vật có tên tương ứng khỏi&nbsp;AnimalList</em></p>
+
+<p><strong>4.</strong>&nbsp;Tạo lớp có tên&nbsp;<strong>Zoo</strong> gồm:</p>
+
+<p><strong>·&nbsp;</strong>Một list có tên&nbsp;DanhSachChuong</p>
+
+<p><strong>·&nbsp;</strong>themChuong(chuong)&nbsp;<em>//thêm chuồng vào&nbsp;DanhSachChuong</em></p>
+
+<p><strong>·&nbsp;</strong>xoaChuong(machuong)&nbsp;<em>//xóa chuồng có mã tương ứng khỏi&nbsp;DanhSachChuong</em></p>
+
+<p><strong>5.</strong>&nbsp;Tạo lớp có tên TestZoo chứa phương thức main() để quản lý sở&nbsp;thú theo dạng Menu như sau:</p>
+
+<ol>
+	<li>Thêm chuồng</li>
+	<li>Xóa chuồng</li>
+	<li>Thêm con vật</li>
+	<li>Xóa con vật</li>
+	<li>Xem tất cả các con vật</li>
+	<li>Thoát</li>
+</ol>
+
+<p><strong>6.</strong>&nbsp;Khi người dùng chọn 3 thì yêu cầu người dùng nhập vào loại con vật muốn thêm (Tiger, Dog, Cat) rồi nhập các thông tin của con vật và thêm vào AnimaList.</p>
+
+<p><strong>7.&nbsp;</strong>Khi người dùng chọn 5 thì hiển thị&nbsp;thông tin cùng tiếng kêu&nbsp;của từng con vật trong sở thú.</p>
+
+<h2><a id="bai-tap-3" name="bai-tap-3"></a>Bài tập 3: HỆ THỐNG QUẢN LÝ THƯ VIỆN</h2>
+
+<p>Ở một thư viện, người ta quản lý sách thông qua phần mềm.</p>
+
+<p>Sách được đặt trên từng kệ sách (mỗi kệ sách bao gồm nhiều cuốn sách). Mỗi kệ sách có 1 số thứ tự riêng.</p>
+
+<p>Các kệ sách được phân ra theo đầu mục sách như: Công nghệ thông tin, truyện ngắn, sách giáo khoa, tiểu thuyết...</p>
+
+<p>Mỗi quyển sách lại được đánh một mã khác nhau.</p>
+
+<p>Trên phần mềm có lưu trữ thêm thông tin về tác giả, năm xuất bản, giá tiền của sách</p>
+
+<p>Để tiện cho việc quản lý. Mỗi khi có một cuốn sách mới, người thủ thư sẽ đưa cuốn sách lên kệ theo đúng đầu mục, ngoài ra, thủ thư sẽ đặt cuốn sách sao cho trong 1 kệ, các cuốn sách xếp theo vần alphabet (sắp xếp từ A--&gt;Z)</p>
+
+<p>Một đặc trưng nữa của phần mềm, đấy là có thể lấy ra cuốn sách có giá cao nhất và cuốn sách có giá thấp nhất theo từng kệ sách, chỉ cần nhập vào số thứ tự kệ sách.</p>
+
+<p>Để tìm kiếm đúng cuốn sách cần thiết, người dùng chỉ cần nhập vào mã sách là phần mềm sẽ trả về thông tin cuốn sách tương ứng.</p>
+
+<p>Hãy viết phần mềm quản lý thư viện theo mô tả như trên.</p>
+
+<div>
+<h2>Bài tập 4:</h2>
+
+<p>Xây dựng lớp đa giác, hình bình hành thừa kế từ đa giác, hình chữ nhật thừa kế từ hình bình hành và hình vuông thừa kế từ hình chữ nhật. Nhập vào các thuộc tính cần thiết của mỗi hình và tính chu vi, diện tích của hình đó.</p>
+</div>
+
+<div>
+<h2>Bài tập 5:</h2>
+
+<p>Xây dựng lớp điểm, lớp elip thừa kế từ lớp điểm, lớp đường tròn thừa kế từ lớp elip. Nhập vào các thuộc tính cần thiết của elip và tính diện tích.</p>
+</div>
+
+<div>
+<h2>Bài tập 6:</h2>
+
+<p>Xây dựng lớp tam giác, lớp tam giác vuông, tam giác cân thừa kế từ lớp tam giác. Lớp tam giác đều thừa kế từ lớp tam giác cân.</p>
+</div>                                    </section>
